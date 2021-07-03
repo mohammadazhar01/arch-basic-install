@@ -22,7 +22,7 @@ echo root:password | chpasswd
 # You can remove the tlp package if you are installing on a desktop or vm
 
 pacman -S grub efibootmgr networkmanager network-manager-applet dialog wpa_supplicant mtools dosfstools reflector base-devel linux-headers xdg-user-dirs xdg-utils bluez bluez-utils alsa-utils bash-completion openssh rsync firewalld os-prober ntfs-3g terminus-font sudo
-
+ wireless_tools pulseaudio-bluetooth
 # pacman -S --noconfirm xf86-video-amdgpu
 # pacman -S --noconfirm nvidia nvidia-utils nvidia-settings
 
